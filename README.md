@@ -22,3 +22,13 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
    ```bash
    git clone https://github.com/tuusuario/inventario-escolar.git
    cd inventario-escolar/backend
+   
+Dependencias del proyecto
+- **express** → framework para crear el servidor web  
+- **sequelize** → ORM para conectarse a MySQL fácilmente  
+- **mysql2** → controlador para conectar Sequelize con MySQL  
+- **dotenv** → para manejar variables de entorno (como usuario y contraseña)  
+- **cors** → para permitir peticiones desde otros dominios (útil si hay un frontend separado)  
+- **nodemon** (solo en desarrollo) → reinicia el servidor automáticamente cuando cambias código  
+
+---
